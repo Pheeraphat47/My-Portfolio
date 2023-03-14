@@ -22,6 +22,7 @@ import activityImg5 from "../assets/img/42bangkok.jpg";
 import activityImg6 from "../assets/img/Cai_Hackathon.jpg";
 import activityImg7 from "../assets/img/freshyband.jpg";
 import activityImg8 from "../assets/img/Orchestra_band.jpg";
+import "../App.css";
 
 export const Projects = () => {
   const awards = [
