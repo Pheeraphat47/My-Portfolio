@@ -553,15 +553,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   object-fit: cover;
 }
 
-@media  screen and (max-width: 540px) {
-  .proj-imgbx img {    
-    object-fit: scale-down;
-  }
-
-  .proj-imgbx:hover::before {
-    height: 400px;
-  }
-}
 
 
 .proj-txtx h4 {
@@ -579,6 +570,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   color: white;
 }
+
+
+@media  screen and (max-width: 540px) {
+  .proj-imgbx img {    
+    object-fit: scale-down;
+  }
+
+  .proj-imgbx:hover::before {
+    height: 400px;
+  }
+
+  .proj-txtx h4{
+    font-size: 24px;
+  }
+
+  .proj-txtx h5{
+    font-size: 16px;
+  }
+}
+
 
 
 
