@@ -6,6 +6,7 @@ import ITcertImg1 from "../assets/img/Microsoft_Cert.png";
 import ITcertImg2 from "../assets/img/Linkedin_Cert.png";
 import ITcertImg3 from "../assets/img/Mu_Mooc_NetworkCert.png";
 import ITcertImg4 from "../assets/img/Mu_Mooc_TestingCert.png";
+import ITcertImg5 from "../assets/img/prototype_certificate.jpg";
 import Borntodev1 from "../assets/img/SQL_Borntodev.png";
 import Borntodev2 from "../assets/img/Nodejs-Expressjs_Borntodev.png";
 import Borntodev3 from "../assets/img/Commandprompt_Borntodev.png";
@@ -50,6 +51,13 @@ export const Certificate = () => {
         "I learned about the basic of software testing and how to test the software to make sure that the software is working correctly",
       imgUrl: ITcertImg4,
       link: "https://drive.google.com/file/d/1wuq1Q398Hox7XD1DGumg27zV1sJ6eT9F/view?usp=sharing",
+    },
+    {
+      title: "Prototyping Application | Chula Mooc",
+      description:
+        "I learned about the basic of prototyping and how to use it to create the prototype for the application",
+      imgUrl: ITcertImg5,
+      link: "https://drive.google.com/file/d/1JSmMixVX-vQpip4G0HskSD9ktE2UE-o5/view?usp=sharing",
     },
   ];
 

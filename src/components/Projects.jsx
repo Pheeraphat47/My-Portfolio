@@ -22,6 +22,7 @@ import activityImg5 from "../assets/img/42bangkok.jpg";
 import activityImg6 from "../assets/img/Cai_Hackathon.jpg";
 import activityImg7 from "../assets/img/freshyband.jpg";
 import activityImg8 from "../assets/img/Orchestra_band.jpg";
+import activityImg9 from "../assets/img/kmuttstartup.jpg";
 import "../App.css";
 
 export const Projects = () => {
@@ -112,6 +113,13 @@ export const Projects = () => {
   ];
 
   const activity = [
+    {
+      title: "Kmutt Startup Playground",
+      description:
+        "I have been participated in this event to learn about design thingking and Business plan to make a startup and connect with others teams in this event",
+      imgUrl: activityImg9, 
+      link: "https://drive.google.com/drive/folders/1VAnw3_3lmigRW-zS6N5uVKAQ87S1Q2_H?usp=sharing",     
+    },
     {
       title: "Teaching Assistant",
       description:
