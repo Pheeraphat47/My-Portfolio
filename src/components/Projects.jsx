@@ -23,6 +23,7 @@ import activityImg6 from "../assets/img/Cai_Hackathon.jpg";
 import activityImg7 from "../assets/img/freshyband.jpg";
 import activityImg8 from "../assets/img/Orchestra_band.jpg";
 import activityImg9 from "../assets/img/kmuttstartup.jpg";
+import activityImg10 from "../assets/img/googlemapapi_workshop.jpg";
 import "../App.css";
 
 export const Projects = () => {
@@ -113,6 +114,13 @@ export const Projects = () => {
   ];
 
   const activity = [
+    {
+      title: "Staff in Google Map API workshop",
+      description:
+        "I have been staff in this workshop to help junior during workshop",
+      imgUrl: activityImg10, 
+      link: "https://drive.google.com/file/d/1Eejwcl6v3rmzWJ1-BPkLqsF_1ZdPFWmL/view?usp=sharing",     
+    },
     {
       title: "Kmutt Startup Playground",
       description:
